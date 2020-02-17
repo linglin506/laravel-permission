@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>登陆 - {{ config('app.name', 'Win7补丁分发平台') }}</title>
+  <title>登陆 - {{ config('app.name', 'Laravel-permission') }}</title>
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -16,7 +16,7 @@
 
     <div class="layadmin-user-login-main">
       <div class="layadmin-user-login-box layadmin-user-login-header">
-        <h2>{{ config('app.name', 'Win7补丁分发平台') }}</h2>
+        <h2>{{ config('app.name', 'Laravel-permission') }}</h2>
         
       </div>
       <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
@@ -49,7 +49,7 @@
     
     <div class="layui-trans layadmin-user-login-footer">
       
-      <p>© 2018 <a href="http://www.sccert.org.cn/" target="_blank">{{ config('app.org', '国家计算机网络与信息安全管理中心四川分中心') }}</a></p>
+      <p>© 2018 <a href="http://www.sccert.org.cn/" target="_blank">{{ config('app.org', 'Laravel-permission') }}</a></p>
       
     </div>
     
