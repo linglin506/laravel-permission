@@ -433,6 +433,4 @@ CREATE TABLE `users`  (
 -- Records of users
 -- ----------------------------
 INSERT INTO `users` VALUES (1, 'admin', '管理员', 0, '13900000000', 'demo@demo.com', '$2y$10$p9lCFijyZEevRb6MvZmrFuWfSbEGrE.ldWu.GO1roqCLCfdRaxAg2', 'JBm1JnuF0x8YMnW2ndoJyO5SKeLv7YdFMe2534ovPJALYt2lcwxci5voF3Xc', 1, 1, '2019-05-27 09:43:50', '2019-05-27 09:43:52');
-INSERT INTO `users` VALUES (2, 'test', NULL, 0, '13350050102', 'sccert@cert.org.cn', '$2y$10$bGr1WJKzAoKt5QfN4W4bked8beaeCblIjdEx9pXxy9bn4twAfEsVS', 'EBB6GUlKb2Omw6Y4NcfPlQF50XjjyjGrkt2eOqGtPZQSkt9amnGFwOlQppTh', 1, 4, '2020-02-10 18:59:08', '2020-02-11 11:44:57');
-
 SET FOREIGN_KEY_CHECKS = 1;
